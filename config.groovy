@@ -2,7 +2,7 @@
 title = "Otimização em Engenharia de Software"
 
 // The version of this document
-version = "0.1"
+version = "0.2"
 
 // The path of source files directory
 //sourceDirectoryPath = "."
@@ -12,3 +12,4 @@ version = "0.1"
 
 //numbering = false
 homePage = "README.md"
+assetTypes = ['jpg', 'jpeg', 'png', 'gif', 'pdf']

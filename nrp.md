@@ -15,8 +15,8 @@ O custo do conjunto de funcionalidades de um determinado cliente `cost(R)` seria
 
 Em uma formulação simples (com funcionalidades independentes), pode-se descrever o problema da seguinte maneira:
 
-$$Max \sum_{i=1}^{n} w_i x_i$$
-$$s.t. \sum_{i=1}^{n} c_i x_i \leq B$$
+    $Max \sum_{i=1}^{n} w_i x_i$
+    $s.t. \sum_{i=1}^{n} c_i x_i \leq B$
 
 Onde $w_i$ é o peso e $c_i$ é o custo de um cliente i e se faz necessário encontrar uma variável binária, $x_i \in$ {0, 1}. Se $x_i = 1$, então o cliente i será selecionado e terá suas funcionalidades satisfeitas, caso contrario $x_i = 0$.
 
@@ -32,11 +32,11 @@ Três abordagens foram desenvolvidas para resolver o problema do próximo releas
 
 Sendo $x_1$, $x_2$, ... $x_m$ e $y_1$, $y_2$, ... $y_n$ variaveis 0/1 representando respectivamente o conjunto de funcionalidades e de clientes. E $w_i$ e $c_i$ representando os seus significados originais, a formulação final seria:
 
-$$Max \sum_{i=1}^{m} w_i y_i$$
-$$s.t. \sum_{i=1}^{n} c_i x_i \leq B$$
-$$x_i \\geq x_j \forall (r_i, r_j) \in E$$
-$$0 \leq x_i \leq 1 \forall 1 \leq i \leq m$$
-$$0 \leq y_i \leq 1 \forall 1 \leq j \leq n$$
+    $Max \sum_{i=1}^{m} w_i y_i$
+    $s.t. \sum_{i=1}^{n} c_i x_i \leq B$
+    $x_i \geq x_j \forall (r_i, r_j) \in E$
+    $0 \leq x_i \leq 1 \forall 1 \leq i \leq m$
+    $0 \leq y_i \leq 1 \forall 1 \leq j \leq n$
 
 Onde $E$ seria a relação de dependencia entre $(r_i, r_j)$, mais precisamente: $(r_i, r_j) \in E$ iff $r_i$ for pré requisito de $r_j$.
 
@@ -66,9 +66,9 @@ O algoritmo Simulated Annealing (SA) é baseado no modelo de resfriamento de mat
 
 É necessário a especificação de um calendário de resfriamento. Dois foram usados:
 
-* Geométrico: $t_{i+1} = \alpha t_i$
+* Geométrico: `$t_{i+1} = \alpha t_i$`
 
-* Lundy and Mees: $t_{i+1} = t_i/(1 + \beta t_i)$
+* Lundy and Mees: `$t_{i+1} = t_i/(1 + \beta t_i)$`
 
 Onde $\alpha$ e $\beta$ são parâmetros de controle. Ambos requerem que uma "temperatura inicial" seja especificada. O SA Geométrico requer um parâmetro especificando quanto permanecer a cada estágio de "temperatura". Para o Lundy and Mees a "temperatura" cai após cada movimento.
 
@@ -93,7 +93,7 @@ Além dos resultados pode-se há áreas para futuros desenvolvimento nas áreas 
 ### Originalidade
 
 Uma adaptação do problema da mochila para o mundo da Engenharia de Software. A adaptação consistiu especialmente com a preocupação em satisfazer a restrição de funcionalidades com dependências.
-Seu embasamento teórico veio basicamente outras abordagens de otimização, mas serviu para início de uma provocação na área de Engenharia de Software.
+Seu embasamento teórico veio basicamente de outras abordagens de otimização, mas serviu para dar início a uma provocação na área de Engenharia de Software.
 
 ### Qualidade
 
