@@ -45,5 +45,6 @@ Excelente apresentação, o autor conseguiu expressar bem o problema proposto, a
 ### Pontos Positivos
 
 * Comparativo usando gráfico que auxiliaram no entendimento da interpretação dos resultados.
+* Provocação sobre o assunto e abrir horizontes sobre essa área da SBSE.
 
 ### Pontos Negativos
