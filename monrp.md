@@ -142,4 +142,3 @@ O autor conseguiu expressar bem o problema e a abordagem sugerida. A formataçã
 
 * Falta de um melhor comparativo de tempo de execução das estratégias.
 * Falta de uma maior diversidade nas amostras analisadas.
-
