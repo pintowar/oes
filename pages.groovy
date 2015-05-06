@@ -3,3 +3,4 @@
 "monrp.md"(showPageToc: false)
 "rp.md"(showPageToc: false)
 "sbr.md"(showPageToc: false)
+"minisat.md"(showPageToc: false)
