@@ -4,3 +4,5 @@
 "rp.md"(showPageToc: false)
 "sbr.md"(showPageToc: false)
 "minisat.md"(showPageToc: false)
+"planning.md"(showPageToc: false)
+"testgen.md"(showPageToc: false)
